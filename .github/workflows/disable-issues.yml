@@ -1,0 +1,12 @@
+name: Disable Issues
+on:
+  workflow_dispatch:
+jobs:
+  disable-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Disable issues via GitHub CLI
+        run: |
+          gh repo edit ${{ github.repository }} --disable-issues
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
