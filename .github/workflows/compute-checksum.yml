@@ -1,0 +1,32 @@
+name: Compute Checksum
+on:
+  workflow_dispatch:
+jobs:
+  compute:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Compute SHA-256
+        run: |
+          STRING="Junteng Liu|jliugi@connect.ust.hk|Vicent0205|https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate|@junteng88716710"
+          HASH=$(echo -n "$STRING" | sha256sum | awk '{print $1}')
+          echo "checksum=$HASH" >> $GITHUB_ENV
+          echo "SHA256: $HASH"
+      - name: Create YAML file
+        run: |
+          cat > _data/benchmark_profile.yml << EOF
+          name: Junteng Liu
+          email: jliugi@connect.ust.hk
+          github: Vicent0205
+          scholar: https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate
+          x_handle: @junteng88716710
+          checksum_sha256: ${{ env.checksum }}
+          EOF
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add _data/benchmark_profile.yml
+          git commit -m "Add benchmark_profile.yml with checksum"
+          git push
