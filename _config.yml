@@ -12,10 +12,10 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Junteng Liu"
 title_separator          : "-"
 name                     : &name "Junteng Liu"
-description              : &description "Junteng Liu's academic homepage — PhD Candidate at HKUST NLP Group"
-url                      : https://mcpmark-eval-1031.github.io/academicpages.github.io # The base hostname & protocol for your site
+description              : &description "Junteng Liu's academic portfolio — PhD Candidate at HKUST NLP Group"   # Update this with a general description of your site
+url                      : https://bugmaker00.github.io # The base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "mcpmark-eval-1031/academicpages.github.io"
+repository               : "bugmaker00/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Junteng Liu"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Candidate at HKUST NLP Group. Researching LLM Reasoning, Hallucination in VLMs, and LLM Truthfulness & Interpretability."
-  location         : "Hong Kong, China"
+  bio              : "PhD Candidate at HKUST NLP Group. Research interests: LLM Reasoning & RL, Hallucination in VLMs, LLM Truthfulness & Interpretability."
+  location         : "Hong Kong"
   employer         : "Hong Kong University of Science and Technology"
   uri              : # URL
-  email            : "jliugi@connect.ust.hk"
+  email            : "jliugi@connect.ust.hk" 
 
   # Academic websites
   academia         : # URL
@@ -56,7 +56,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : # URL
+  bluesky          : # Replace this with your Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -331,8 +331,8 @@ whitelist:
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path>/my-awesome-category/index.html ~> path: /
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/

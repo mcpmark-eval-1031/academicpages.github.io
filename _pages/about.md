@@ -7,15 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year Ph.D. candidate at the [HKUST NLP Group](https://nlp.hkust.edu.hk/), [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/), advised by [Prof. Junxian He](https://jxhe.github.io/). I received my B.Eng. from [Shanghai Jiao Tong University (SJTU)](https://en.sjtu.edu.cn/) in June 2024, where I was also fortunate to work with Prof. Junxian He during my undergraduate studies.
+I am a first-year Ph.D. candidate at the [HKUST NLP Group](https://nlp.hkust.edu.hk/), [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/), advised by [Prof. Junxian He](https://jxhe.github.io/). I received my B.Eng. from [Shanghai Jiao Tong University (SJTU)](https://en.sjtu.edu.cn/) in June 2024, where I was also fortunate to work with Prof. Junxian He during my undergraduate studies. I am also currently a Research Intern at [MiniMax](https://www.minimaxi.com/) (February 2025 – Present).
 
-My research lies at the intersection of **natural language processing** and **machine learning**, with a particular focus on understanding and improving the capabilities and reliability of large language models (LLMs) and vision-language models (VLMs).
+My research lies at the intersection of **natural language processing (NLP)** and **machine learning**, with a focus on understanding and improving the capabilities and reliability of large language models (LLMs) and vision-language models (VLMs).
 
 ## Research Interests
 
-- **LLM Reasoning and Reinforcement Learning**: Exploring scalable methods to synthesize verifiable reasoning data and enhance logical reasoning capabilities of large language models through reinforcement learning.
-- **Hallucination in Vision-Language Models (VLMs)**: Investigating perception bottlenecks and developing techniques to mitigate hallucination in multimodal tasks such as chart understanding.
-- **LLM Truthfulness and Interpretability**: Studying the internal representations of LLMs to understand truthfulness mechanisms and developing interpretability tools to improve model reliability.
+- **LLM Reasoning and Reinforcement Learning**: Developing scalable methods to synthesize verifiable reasoning data and enhance logical reasoning capabilities of LLMs through reinforcement learning from verifiable rewards.
+- **Hallucination in Vision-Language Models (VLMs)**: Investigating perception bottlenecks and developing techniques to mitigate hallucination in multimodal understanding tasks such as chart understanding.
+- **LLM Truthfulness and Interpretability**: Studying the internal representations of LLMs to understand truthfulness mechanisms (e.g., universal truthfulness hyperplanes) and developing tools to improve model reliability.
 
 ## Selected Publications
 
@@ -45,21 +45,21 @@ Jinghan Zhang, Shiqi Chen, **Junteng Liu**, Junxian He
 
 ## Education
 
-- **Ph.D. in Computer Science** (2024–Present)  
+- **Ph.D. in Computer Science** (2024 – Present)  
   Hong Kong University of Science and Technology (HKUST)  
   *Advisor: [Prof. Junxian He](https://jxhe.github.io/)*
 
-- **B.Eng.** (2020–2024)  
+- **B.Eng.** (2020 – 2024)  
   Shanghai Jiao Tong University (SJTU)  
-  *Recipient of Zhiyuan Honor Scholarship*
+  *Recipient of the Zhiyuan Honor Scholarship*
 
-## Experience
+## Research Experience
 
 - **Research Intern**, MiniMax (February 2025 – Present)  
-  Working on large language models and reasoning.
+  Working on large language model reasoning and reinforcement learning.
 
 - **Research Intern**, Tencent WXG (June 2024 – September 2024)  
-  *Advisor: Zifei Shan* — Research on vision-language models.
+  *Advisor: Zifei Shan* — Research on vision-language models and chart understanding.
 
 - **Research Intern**, Shanghai AI Lab (June 2023 – December 2023)  
   *Advisor: Prof. Yu Cheng* — Research on LLM truthfulness and interpretability.
