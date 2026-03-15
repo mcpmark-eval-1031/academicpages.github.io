@@ -13,9 +13,9 @@ title                    : "Junteng Liu"
 title_separator          : "-"
 name                     : &name "Junteng Liu"
 description              : &description "Junteng Liu's academic portfolio — PhD Candidate at HKUST NLP Group, researching LLM Reasoning, VLM Hallucination, and LLM Truthfulness."
-url                      : https://bugmaker00.github.io # The base hostname & protocol for your site
+url                      : https://mcpmark-eval-1031.github.io # The base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "bugmaker00/bugmaker00.github.io"
+repository               : "mcpmark-eval-1031/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
