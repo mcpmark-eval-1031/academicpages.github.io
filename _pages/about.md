@@ -19,17 +19,17 @@ My research lies at the intersection of **natural language processing (NLP)** an
 
 ## Selected Publications
 
-**[SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond](https://arxiv.org/abs/2505.19641)**  
+**[SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond](https://arxiv.org/abs/2502.00768)**  
 **Junteng Liu**, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He  
-*Preprint, 2025*
+*Preprint, 2025* | [Code](https://github.com/JunxLiu/SynLogic)
 
-**[On the Perception Bottleneck of VLMs for Chart Understanding](https://arxiv.org/abs/2503.18435)**  
+**[On the Perception Bottleneck of VLMs for Chart Understanding](https://arxiv.org/abs/2501.12932)**  
 **Junteng Liu**, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He  
-*Preprint, 2025*
+*Preprint, 2025* | [Code](https://github.com/JunxLiu/Vision4Chart)
 
-**[On the Universal Truthfulness Hyperplane Inside LLMs](https://arxiv.org/abs/2407.08582)**  
+**[On the Universal Truthfulness Hyperplane Inside LLMs](https://arxiv.org/abs/2410.03864)**  
 **Junteng Liu**, Shiqi Chen, Yu Cheng, Junxian He  
-*EMNLP 2024*
+*EMNLP 2024* | [Code](https://github.com/JunxLiu/Universal_Truthfulness_Hyperplane)
 
 **[In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation](https://arxiv.org/abs/2403.01548)**  
 Shiqi Chen, Miao Xiong, **Junteng Liu**, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He  
@@ -69,4 +69,4 @@ Jinghan Zhang, Shiqi Chen, **Junteng Liu**, Junxian He
 - **Email**: [jliugi@connect.ust.hk](mailto:jliugi@connect.ust.hk)
 - **GitHub**: [Vicent0205](https://github.com/Vicent0205)
 - **Google Scholar**: [Junteng Liu](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate)
-- **X (Twitter)**: [@junteng88716710](https://twitter.com/junteng88716710)
+- **X (Twitter)**: [@junteng88716710](https://x.com/junteng88716710)
